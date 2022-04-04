@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.contenedor{ 
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #DBDBDB;
+}
+
+.card{
+	display: flex;
+    width: 300px;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: auto;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid #727272;
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+
+.marca{
+	font-weight: bold;
+	color: #B2B2B2;
+	margin-bottom: 10px;
+
+}
+
+.descripcion{
+	font-weight: bold;
+	text-align: start;
+}
+
+.SKU{
+	color: #B2B2B2;
+	text-align: start;
+}
+
+.cantidad{
+	font-weight: bold;
+	text-align: start;
+	margin-top: 10px;
+	display: block;
+}
+
+.precio-box{
+	margin-top: 15px;
+}
+
+.contado{
+	font-size: 1.3em;
+	font-weight: bold;
+}
+.contado-valor{
+	font-size: 1.3em;
+	color: #FF0404;
+	font-weight: bold;	
+}
+
+.agregar{
+	margin-top: 15px;
+	width: 75%;
+	height: 30px;
+	font-weight: bold;
+}
+
+.mensaje{
+	width: 100%;
+	margin-top: 5px;
+	font-weight: bold;
+	font-size: 1.3em;
+}
